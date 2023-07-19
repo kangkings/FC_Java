@@ -1,4 +1,4 @@
-package com.exercise.course1.part1;
+package com.exercise.course1.part2.ch01;
 
 public class FourArithmetic {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.exercise.course1.part1;
+package com.exercise.course1.part2.ch02;
 
 public class Operator {
     public static void main(String[] args) {
