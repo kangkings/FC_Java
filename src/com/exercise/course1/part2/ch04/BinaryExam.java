@@ -5,12 +5,12 @@ public class BinaryExam {
         //123을 10진, 2진, 8진 16진수로 출력
         int a = 123;
         System.out.println("a = " + a);
-        int binary = 0b01010011;
-        System.out.println("binary = " + binary);
-        int octal = 0123;
-        System.out.println("octal = " + octal);
-        int hexa = 0x53;
-        System.out.println("hexa = " + hexa);
+        String binary=java.lang.Integer.toBinaryString(a);
+        System.out.println(binary);
+        String octal=java.lang.Integer.toOctalString(a);
+        System.out.println(octal);
+        String hexa=java.lang.Integer.toHexString(a);
+        System.out.println(hexa);
         
     }
 }
