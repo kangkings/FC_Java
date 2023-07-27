@@ -7,5 +7,14 @@ public class PersonTest {
         //인스턴스를 만드는 과정은 다음과 같음
         Person p;//같은 디렉토리에 있고 접근가능한 제어자로 선언된 클래스는 위치 명시나 import없이 사용할 수 있다
         p = new Person();
+        
+        //Q Person 객체에 데이터를 저장하고 메서드를 호출하시오
+        p.name = "홍길동";
+        p.age = 30;
+        p.phone = "010-1111-2222";
+        System.out.println(p.name + "\t" + p.phone + "\t" + p.age);
+        p.eat();
+        p.play();
+        p.walk();
     }
 }
