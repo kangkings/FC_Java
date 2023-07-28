@@ -103,4 +103,10 @@
 
 
 ### toString()메서드로 객체 값 출력하기
+> 객체가 가지고 잇는 값 전체를 문자열 형태로 넘겨주는 메서드
+> ```java
+>public String toString(){
+>   return this.name+"\t"+this.age+"\t"+this.phone+"\t"+this.weight;
+> }
+> ```
 

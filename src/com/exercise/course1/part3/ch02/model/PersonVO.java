@@ -56,4 +56,10 @@ public class PersonVO {
     public void setWeight(int weight) {
         this.weight = weight;
     }
+
+    //변수를 한번에 출력
+    public String toString(){
+        return this.name+"\t"+this.age+"\t"+this.phone+"\t"+this.weight;
+    }
+
 }
