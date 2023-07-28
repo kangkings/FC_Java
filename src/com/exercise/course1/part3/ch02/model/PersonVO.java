@@ -1,0 +1,44 @@
+package com.exercise.course1.part3.ch02.model;
+
+public class PersonVO {
+    private String name;
+    private int age;
+    private String phone;
+    private int weight;
+
+    //getter
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    //setter
+
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+}
