@@ -7,4 +7,6 @@ public class MemberDTO {
     public String email;
     public String addr;
     public float weight;
+
+    private int heigt;
 }
