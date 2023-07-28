@@ -6,6 +6,21 @@ public class PersonVO {
     private String phone;
     private int weight;
 
+    //기본 생성자
+    public PersonVO(){
+        //객체 생성시 최초값으로 초기화
+        this.name = "홍길동 기본생성자";
+        this.age = 0;
+        this.phone = "010-0000-0000";
+        this.weight = 50;
+    }
+    //생성자 오버로딩(Overloading)해서 생성자에 값을 넘겨주어 해당 값으로 초기화
+    public PersonVO(String name, int age, String phone, int weight){
+        this.name = name;
+        this.age = age;
+        this.phone = phone;
+        this.weight = weight;
+    }
     //getter
     public String getName() {
         return name;

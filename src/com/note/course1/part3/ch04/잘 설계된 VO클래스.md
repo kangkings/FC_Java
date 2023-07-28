@@ -78,7 +78,26 @@
 
 
 ### 생성자를 이용한 객체 초기화
-
+> 생성자 메서드를 활용하면 객체가 생성될 때 상태변수들을 초기화 시킬 수 있음
+> ```java
+> public PersonVO(){
+>   //new로 객체 생성시 기본생성자로 초기화 해버림
+>   this.name = "홍길동";
+>   this.age = 50;
+>   this.phone = "010-1111-1111";
+> }
+> ```
+>생성자 메서드 오버로딩을 통해 원하는 값으로 초기화
+> ```java
+> public PersonVO(String name, int age, String phone, int weight){
+>   this.name = name;
+>   this.age = age;
+>   this.phone = phone;
+>   this.weight = weight;
+> }
+> ```
+> 오버로딩된 생성자메서드가 있을경우 기본생성자는 만들어지지 않는다   
+> 따라서 기본생성자가 필요하다면 추가적으로 직접 만들어야 한다
 
 ---
 
