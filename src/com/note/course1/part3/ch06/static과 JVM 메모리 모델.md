@@ -30,3 +30,7 @@
 ##### none-static 멤버에 접근하는 방법
 > 객체생성 후 객체명.메서드();
 
+---
+### JVM의 메모리 모델
+<img src="../../../../../image/JVMMemoryModel.png"></img>
+
