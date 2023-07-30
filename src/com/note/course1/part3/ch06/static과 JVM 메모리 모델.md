@@ -34,3 +34,11 @@
 ### JVM의 메모리 모델
 <img src="../../../../../image/JVMMemoryModel.png"></img>
 
+---
+### 객체생성과 static의 관계
+어떤 클래스의 모든 멤버가 static 멤버인 경우를 생각해보자
+> static의 경우 객체가 만들어지지 않아도 static-zone에 로딩되기 때문에   
+> main에서 클래스명.메서드()로 호출이 가능하다      
+> 따라서 객체를 만들 필요가 없다 => 객체생성을 막을 수 있다   
+> 객체 생성을 막는 방법? => 생성자를 private 처리
+> 생성자는 반드시 public이다? => X, System.Math등이 private 생성자를 가진 예시
