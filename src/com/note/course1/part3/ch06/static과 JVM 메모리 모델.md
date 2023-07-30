@@ -42,3 +42,33 @@
 > 따라서 객체를 만들 필요가 없다 => 객체생성을 막을 수 있다   
 > 객체 생성을 막는 방법? => 생성자를 private 처리
 > 생성자는 반드시 public이다? => X, System.Math등이 private 생성자를 가진 예시
+
+---
+### Class, Object, Instance 구분하기
+##### Class
+> 객체를 모델링 하는 도구(설계도)
+> ```java
+> public  class Student{
+>   private String name;
+>   private String dept;
+>   private int age;
+>   private String email;
+>   private int year;
+>   private String phone;
+>   //이하생략
+> }
+> ```
+
+##### Object(객체)
+> 클래스를 통해서 선언되는 변수
+> ```java
+> Student st;//변수가 구체적인 실체(대상)를 가리키지 않는 상태(객체변수)
+> //객체가 서로 구분이 되지 않는 시점이다
+> ```
+
+##### Instance(인스턴스,실체)
+> 객체생성에 의해 메모리(Heap Memory)에 만들어진 객체를 Instance라고 한다
+> ```java
+> st = new Strudent();//객체가 구체적인 실체를 가리키는 상태(인스턴스 변수)
+> //객체가 서로 구분이 되는 시점이다
+> ```
