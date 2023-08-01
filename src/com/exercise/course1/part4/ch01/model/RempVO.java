@@ -8,6 +8,17 @@ public class RempVO extends Employee{
         super();//부모인 Employee의 생성자 호출 => Employee의 생성자에 있는 super()도 작동=> 최상위 클래스 Object도 생성됨
     }
 
+    public RempVO(String name, int age, String phone, String empDate, String dept, boolean marriage){
+        //초기화(자식이 부모의 기억공간에 초기화를 하는경우)
+        //가능은 하지만 올바른 방식인가?
+        this.name = name;
+        this.age = age;
+        this.phone = phone;
+        this.empDate = empDate;
+        this.dept = dept;
+        this.marriage = marriage;
+
+    }
     @Override
     public String toString() {
         return "RempVO{" +
