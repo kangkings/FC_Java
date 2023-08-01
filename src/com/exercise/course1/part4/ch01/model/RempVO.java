@@ -11,23 +11,17 @@ public class RempVO extends Employee{
     public RempVO(String name, int age, String phone, String empDate, String dept, boolean marriage){
         //초기화(자식이 부모의 기억공간에 초기화를 하는경우)
         //가능은 하지만 올바른 방식인가?
-        this.name = name;
-        this.age = age;
-        this.phone = phone;
-        this.empDate = empDate;
-        this.dept = dept;
-        this.marriage = marriage;
-
+        super(name, age, phone, empDate, dept, marriage);
     }
     @Override
     public String toString() {
         return "RempVO{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                ", phone='" + phone + '\'' +
-                ", empDate='" + empDate + '\'' +
-                ", dept='" + dept + '\'' +
-                ", marriage=" + marriage +
+                "name='" + getName() + '\'' +
+                ", age=" + getAge() +
+                ", phone='" + getPhone() + '\'' +
+                ", empDate='" + getEmpDate() + '\'' +
+                ", dept='" + getDept() + '\'' +
+                ", marriage=" + isMarriage() +
                 '}';
     }
 }
