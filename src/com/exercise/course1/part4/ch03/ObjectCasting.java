@@ -10,5 +10,11 @@ public class ObjectCasting {
 
         Animal b = new Cat();
         b.eat();
+
+        //다운캐스팅
+        Cat c = (Cat)b;
+        c.eat();
+        c.night();
+        //(Cat)b.night(); 이 코드는 에러발생 => 연산자 우선순위가 .이 빠름(캐스팅 되기 전에 참조가 이루어짐)
     }
 }
