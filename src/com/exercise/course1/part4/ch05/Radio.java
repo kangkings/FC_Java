@@ -1,6 +1,6 @@
 package com.exercise.course1.part4.ch05;
 
-public class Radio extends RemoCon{
+public class Radio implements RemoteControler{
     //chUp(), chDown(), volUp(), volDown()
     //추상클래스를 상속받았기 때문에 구현부가 정의되지 않은 추상 메서드를 반드시 오버라이딩 해야함
 
@@ -22,5 +22,10 @@ public class Radio extends RemoCon{
     @Override
     public void volDown() {
         System.out.println("Radio의 소리가 내려간다");
+    }
+
+    @Override
+    public void internet() {
+        System.out.println("Radio는 인터넷 기능이 없다");
     }
 }
