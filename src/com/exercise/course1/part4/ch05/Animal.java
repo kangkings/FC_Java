@@ -9,4 +9,8 @@ public abstract class Animal {
 
     //추상클래스의 추상메서드에는 abstract 키워드를 붙여야 한다
     public abstract void eat();//추상메서드(불완전한 메서드): 메서드의 구현부가 없다 => 반드시 재정의 해줘야한다
+    
+    public void move(){//구현메서드 => 필요에 따라 자식에서 재정의 가능
+        System.out.println("무리를 지어 이동한다");
+    }
 }
