@@ -55,5 +55,6 @@ public void display(Object[] obj){
 ---
 
 ### Object클래스의 toString()메서드
-
+최상위 클래스인 Object의 toString()메서드는 기본적으로 메모리의 주소값을 문자열로 출력한다   
+하지만 이와같은 용도로는 잘 사용하지 않고 대부분 재정의하여 사용한다
 
