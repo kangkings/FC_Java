@@ -28,7 +28,18 @@ Object obj = new A();//업캐스팅
 ---
 
 ### Object클래스를 활용한 다형성 적용
-
+##### 다형성 인수로 Object 활용
+```java
+//A와 B클래스를 동시에 받을 수 있는 타입? => 모든 클래스의 최상위인 Object
+//Object로 업캐스팅하면 반드시 다운캐스팅이 다시 이루어진다
+public void display(Object obj){
+    if(obj instanceof A){
+        ((A)obj).printGo();//다운캐스팅
+    }else{
+        ((B)obj).printGo();//다운캐스팅
+    }
+}
+```
 
 ---
 
