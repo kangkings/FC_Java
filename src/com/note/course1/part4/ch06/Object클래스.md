@@ -40,8 +40,20 @@ public void display(Object obj){
     }
 }
 ```
-
+##### 다형성 배열로 Objcet 활용
+```java
+public void display(Object[] obj){
+        for (int i = 0; i < obj.length; i++) {
+            if (obj[i] instanceof A){
+                ((A)obj[i]).printGo();
+            }else{
+                ((B)obj[i]).printGo();
+            }
+        }
+    }
+```
 ---
 
 ### Object클래스의 toString()메서드
+
 
