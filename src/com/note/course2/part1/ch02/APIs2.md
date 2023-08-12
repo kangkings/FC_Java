@@ -34,12 +34,15 @@ Q 정수 5개를 배열에 저장하고 출력하기
 ---
 
 ### BookArray 클래스를 만들어 사용하기
-
+>Book, BookArray, MyBookArrayTest 실습으로 진행
 
 ---
 
 ### ObjectArray 클래스를 만들어 사용하기
-
+> Object는 최상위 클래스이기 때문에 어떤 타입이든 받을 수 있어 범용성이 좋다   
+> 하지만 반드시 목표하는 클래스로 다운캐스팅하여 사용해야 한다
+> 
+> Object, A, B, C, ObjectArray, MyObjectArrayTest 실습으로 진행
 
 ---
 
