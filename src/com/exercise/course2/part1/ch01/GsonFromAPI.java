@@ -1,4 +1,4 @@
-package com.exercise.course2.part2.ch01;
+package com.exercise.course2.part1.ch01;
 
 import com.google.gson.Gson;
 
