@@ -29,6 +29,7 @@ Q 정수 5개를 배열에 저장하고 출력하기
 
 ### IntArray클래스 만들어 사용하기
 
+>MyIntArrayTest, IntArray 실습으로 진행
 
 ---
 
