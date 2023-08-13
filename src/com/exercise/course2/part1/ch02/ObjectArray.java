@@ -8,8 +8,14 @@ public class ObjectArray {
     private Object[] elements;//Object로 받는다면 모든 타입을 다 받을 수 있기 때문에 범용성있는 API가 되는것
     //다형성 배열
 
+
     public ObjectArray() {
-        elements = new Object[DEFAULT_CAPACITY];//5개 크기 배열 초기생성
+        this(5);//해당 클래스안에 있는 다른 생성자 호출
+        //기본호출하면 5개짜리를 생성하고
+    }
+
+    public ObjectArray(int capacity){
+        elements = new Object[capacity];//생성자에 입력한 크기의 배열 생성
     }
 
     //저장하는 동작
