@@ -17,6 +17,19 @@
 
 ### String클래스에서 제공하는 Method 활용하기
 
+> chatAt(index): index번째 문자하나를 가져온다   
+> 
+> replaceAll("before", "after"): before에 해당하는 문자를 after로 변환 -> 원본은 그대로
+> 
+> indexOf("char"): char과 같은 문자가 있는 곳의 인덱스를 반환, 없으면 -1반환
+> 
+> length(): 문자열의 길이 반환    
+> 
+> toUpperCase(): 해당 문자열을 대문자로 변환   
+> 
+> toLowerCase(): 해당 문자열을 소문자로 변환   
+> 
+> subString(start,end): start~end사이의 문자열을 추출(이때 start는 포함, end는 미포함)
 
 ---
 
