@@ -35,7 +35,23 @@
 ---
 
 ### 숫자와 문자열의 상호 변환
+##### 숫자형 문자열을 정수로 변환
+> Integer.parseInt()메서드 사용
+> ```java
+> String str = "123";
+> int num = Integer.parseInt(str);
+>```
 
+##### 정수를 문자열로 변환
+> String valueOf()메서드나 ""+정수 사용
+> ```java
+> int num = 123;
+> String str1 = String.valueOf(num);
+> String str2 = ""+num;
+> ```
+> 
+> 
+>
 
 ---
 
