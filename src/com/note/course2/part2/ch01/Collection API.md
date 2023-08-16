@@ -1,0 +1,57 @@
+# Course2 Part2 Collection Framework API이해 및 활용   
+
+## Collection API
+
+### 목표
+> 자바 컬렉션 프레임워크(Collection Framework)API는 자바에서 자공하는 데이터 구조인   
+> 컬렉션을 표현하는 인터페이스와 클래스의 모음(API)이다. 이 API를 사용하여   
+> 데이터를 저장하고 관리하는 다양한 방법을 학습한다
+
+---
+
+### Wrapper클래스란?
+##### wrapper(포장) 클래스란 어떤 클래스인가?
+>기본 데이터 타입(primitive data type)을 객체로 다룰 수 있도록 만들어진 클래스
+> 
+> wrapper클래스를 사용하면 자동으로 박싱(boxing)과 언박싱(unboxing)이 이루어진다
+
+##### 기본 데이터 타입별 wrapper 클래스
+> byte: Byte   
+> short: Short   
+> int: Integer   
+> long: Long   
+> float: Float   
+> double: Double   
+> char: Character   
+> boolean: Boolean
+
+##### boxing
+> 기본 데이터 타입을 해당하는 wrapper 클래스 객체로 변환하는 것   
+> 
+> ex) int i = 10; => Integer intObj = Integer.valueOf(i);
+
+##### unboxing
+> wrapper 클래스 객체를 해당하는 기본 데이터 타입으로 변환하는 것
+---
+
+### 숫자와 문자열의 상호 변환
+
+
+---
+
+### Collection Framework API란?
+
+
+---
+
+### 순서가 있고 중복 가능한 List API
+
+
+---
+
+### 순서가 없고 중복 불가능한 Set API
+
+
+---
+
+### Key-Value로 관리하는 Map API
