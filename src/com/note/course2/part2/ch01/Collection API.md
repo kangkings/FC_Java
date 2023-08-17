@@ -92,3 +92,6 @@
 ---
 
 ### Key-Value로 관리하는 Map API
+> put(key,value): 데이터 추가, 수정   
+> get(key): key값에 해당하는 value값 조회   
+> remove(key): key값에 해당하는 value값 삭제
