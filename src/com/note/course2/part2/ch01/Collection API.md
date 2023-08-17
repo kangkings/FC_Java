@@ -76,7 +76,7 @@
 ---
 
 ### 순서가 있고 중복 가능한 List API
-
+> List API로 java.util 패키지에 포함된 ArrayList클래스가 있다   
 
 ---
 
