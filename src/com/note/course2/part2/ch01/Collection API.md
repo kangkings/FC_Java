@@ -81,7 +81,13 @@
 ---
 
 ### 순서가 없고 중복 불가능한 Set API
-
+> Set API클래스에는 HashSet 클래스가 있다
+> add(): 요소추가   
+> size(): 요소 개수   
+> remove(): 요소 삭제   
+> contains(): 포함 여부 판단   
+> clear(): set 비우기   
+> isEmpty(): 비어있는지 확인
 
 ---
 
