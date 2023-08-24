@@ -30,6 +30,10 @@
 > 제네릭 타입을 여러개 선언하여 사용하는 것(ex<K,V> => Key, value)   
 > 
 > 주로 Map에서 사용
+> 
+> HashMap<String,Integer>과 같이 사용
+> 
+> 클래스에서는 public class Pair<K,V>와 같이 사용한다
 
 ---
 
