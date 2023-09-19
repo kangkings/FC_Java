@@ -1,6 +1,4 @@
-# Course2 Part3 API 활용하기   
-
-## 함수형 인터페이스
+# Course2 Part3 API 활용하기
 
 ### 목표
 > JSON(Java Script Object Notation)과 XML(eXtensible Markup Language)은   
@@ -51,8 +49,21 @@
 ---
 
 ### Gson API 활용하기
+> 자바에서 JSON 데이터를 다루는 방법은 여러가지가 있지만 일반적으로 GSON, Jackson 라이브러리를 사용해서 쉽게 할 수 있다
 
+##### 중첩된 JSON구조 핸들링하기
+```java
+{
+    "name":"홍길동",
+    "age" : 30,
+    "email" : "kang@email.com",
+    "address" : {
+    "city" : "서울",
+    "country" : "대한민국"    
+    }    
+}
 
+```
 ---
 
 ### Jsoup API 활용하기
