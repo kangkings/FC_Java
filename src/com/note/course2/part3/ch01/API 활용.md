@@ -74,7 +74,45 @@
 ---
 
 ### URL Connection 네트워킹 하기
+##### HttpURLConnection
+>HTTP프로토콜을 사용하여 특정 웹 서버와 통신하기 위한 클래스이다
+> GET,POST,PUT,DELETE 등의 HTTP 메서드를 지원하며 HTTP 요청과 응답을 처리할 수 있는 메서드도 제공한다
 
+##### 웹 서버에서 정보를 가져오는 절차
+> 1. URL 생성
+> : 웹 리소스에 대한 URL을 생성한다
+>
+> 
+> 2. HttpURLConnection 초기화
+>: URL 객체의 openConnection()메서드를 호출하여 객체를 얻는다
+> 
+> 
+> 3. HTTP 메서드 설정(예: GET)
+>: HttpURLConnection 객체의 setRequestMethod()를 사용하며 원하는 HTTP메서드(GET 등)을 설정한다
+> 
+> 
+> 4. 요청 헤더 설정(선택)
+>: 필요한 경우, setRequestProperty() 메서드를 사용하여 요청 헤더를 설정한다
+> 
+> 
+> 5. 요청 본문 작성(선택)
+>: POST, PUT과 같은 메서드를 사용할 때, 출력 스트림을 사용하여 요청 본문을 작성한다
+> 
+> 
+> 6. 응답 코드 확인
+> : getResponseCode() 메서드를 호출하여 서버에서 반환한 HTTP 응답 코드를 확인한다
+> 
+> 
+> 7. 응답 헤더 읽기(선택)
+> : 필요한 경우 getHeaderField() 또는 관련 메서드를 사용하여 응답 헤더를 읽는다
+> 
+> 
+> 8. 응답 본문 읽기
+> : InputStream을 사용하여 응답 본문을 읽고 처리한다
+> 
+> 
+> 9. 연결 종료
+>: 연결을 끊고 리소스를 해제한다
 
 ---
 
