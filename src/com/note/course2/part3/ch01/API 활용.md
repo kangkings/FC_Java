@@ -67,7 +67,10 @@
 ---
 
 ### Jsoup API 활용하기
+> Jsoup은 자바 라이브러리로 HTML 문서를 읽고 원하는 데이터를 파싱하여   
+> 웹 크롤링, 웹 스크래핑, 데이터 추출 등의 작업을 수행할 수 있다
 
+>다운로드는 JSON과 마찬가지로 http://mvnrepository.com/ 에서 한다
 ---
 
 ### URL Connection 네트워킹 하기
