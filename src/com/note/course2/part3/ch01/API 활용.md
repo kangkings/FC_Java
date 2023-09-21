@@ -120,5 +120,15 @@
 
 ##### https://openweathermap.org/ 에 접속해서 날씨 정보 가져오기
 
-
+>1. APIkey와 URL을 기반으로 HttpURLConnection을 통해 서버연결
+>
+>2. 연결된 서버와 통신하여 데이터를 얻어오기 위한 스트림 연결
+>
+>3. JsonObject타입으로 JSON데이터 얻이오기
+>
+>4. JsonObject타입으로 가져온 JSON데이터중 main에 해당하는 데이터 추출
+>
+>5. 추출한 데이터에서 temp에 해당하는 double타입 데이터 추출 후 출력
+>
+>6. 연결 종료
 
