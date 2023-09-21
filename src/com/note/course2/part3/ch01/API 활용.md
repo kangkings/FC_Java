@@ -117,3 +117,8 @@
 ---
 
 ### Open API활용 날씨 정보 가져오기
+
+##### https://openweathermap.org/ 에 접속해서 날씨 정보 가져오기
+
+
+
