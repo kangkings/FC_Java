@@ -24,3 +24,23 @@
 > 
 > 회원정보를 담을 VO설계, 복수의 정보를 담기위해 List생성, 입력 스트림을 통해 데이터를 입력받아   
 > VO에 담고 workbook,sheet,row등을 활용하여 엑셀파일에 데이터 입력 후 저장(23/09/23)
+
+### Pdf API(iText)
+> iText API를 이용해서 책 정보를 Pdf파일에 생성하는 실습
+```html
+<dependency>
+    <groupId>com.itextpdf</groupId>
+    <artifactId>itext7-core</artifactId>
+    <version>7.1.15</version>
+</dependency>
+```
+
+> 1. PdfWriter객체를 생성하여 PDF출력을 위한 스트림을 지정
+> 
+> 2. PdfWriter 객체를 사용하여 PdfDocument객체 생성
+> 
+> 3. PdfFontFactory클래스의 createFont()메서드로 폰트생성, Document 객체의 setFont()로 폰트설정
+> 
+> 4. 책정보를 HashMap객체에 저장, keySet()메서드를 사용하여 모든 키 순회하면서 문단생성
+> 
+> 5. Document객체 닫기
